@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Introduction on Ben&#39;s Thoughts</title>
-    <link>http://example.org/</link>
+    <link>https://soukiassianb.github.io/blog-render/</link>
     <description>Recent content in Introduction on Ben&#39;s Thoughts</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://soukiassianb.github.io/blog-render/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Creating a New Theme</title>
-      <link>http://example.org/posts/creating-a-new-theme/</link>
+      <link>https://soukiassianb.github.io/blog-render/posts/creating-a-new-theme/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/creating-a-new-theme/</guid>
+      <guid>https://soukiassianb.github.io/blog-render/posts/creating-a-new-theme/</guid>
       <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
 We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
     </item>
     
     <item>
       <title>Migrate to Hugo from Jekyll</title>
-      <link>http://example.org/posts/migrate-from-jekyll/</link>
+      <link>https://soukiassianb.github.io/blog-render/posts/migrate-from-jekyll/</link>
       <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/migrate-from-jekyll/</guid>
+      <guid>https://soukiassianb.github.io/blog-render/posts/migrate-from-jekyll/</guid>
       <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
 ▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
 ▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
@@ -34,20 +34,20 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
     
     <item>
       <title>(Hu)go Template Primer</title>
-      <link>http://example.org/posts/goisforlovers/</link>
+      <link>https://soukiassianb.github.io/blog-render/posts/goisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/goisforlovers/</guid>
+      <guid>https://soukiassianb.github.io/blog-render/posts/goisforlovers/</guid>
       <description>Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
 This document is a brief primer on using Go templates.</description>
     </item>
     
     <item>
       <title>Getting Started with Hugo</title>
-      <link>http://example.org/posts/hugoisforlovers/</link>
+      <link>https://soukiassianb.github.io/blog-render/posts/hugoisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/hugoisforlovers/</guid>
+      <guid>https://soukiassianb.github.io/blog-render/posts/hugoisforlovers/</guid>
       <description>Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.
 Save it somewhere specific as we will be using it in the next step.
 More complete instructions are available at Install Hugo
@@ -58,50 +58,50 @@ Follow the following steps:
     
     <item>
       <title></title>
-      <link>http://example.org/docs/convenience/</link>
+      <link>https://soukiassianb.github.io/blog-render/docs/convenience/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/docs/convenience/</guid>
+      <guid>https://soukiassianb.github.io/blog-render/docs/convenience/</guid>
       <description>Convenience &amp;amp; high fidelity I read a book a while back called Trade-offs. The central premise was that the way people experience products or services can be mapped on a chart called the fidelity swap which showcases Fidelity on the Y axis and Convenience on the X axis.
 In the context of this chart, fidelity refers to the *total experience of something *whereas** convenience **refers to how easy or hard is it to get what you want (It encompass availability, price, ease of use).</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://example.org/docs/drafts/ben-franklin/</link>
+      <link>https://soukiassianb.github.io/blog-render/docs/drafts/ben-franklin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/docs/drafts/ben-franklin/</guid>
+      <guid>https://soukiassianb.github.io/blog-render/docs/drafts/ben-franklin/</guid>
       <description>Ben Franklin I just got around finishing Benjamin Franklin&amp;rsquo;s biography by Walter Isaacson. I read it to understand why his character has been a source of fascination and admiration for many, and while the book was dense and at times a bit longish, by the end I definitely shared a form of admiration for the man (as I tend to do for all polymaths).
 Here is a list of things I learned about Benjamin Franklin.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://example.org/docs/faucet-design/</link>
+      <link>https://soukiassianb.github.io/blog-render/docs/faucet-design/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/docs/faucet-design/</guid>
+      <guid>https://soukiassianb.github.io/blog-render/docs/faucet-design/</guid>
       <description>The surprising link between faucet design and Machine Learning. Thinking in Systems by Donella Meadows is a great introduction to the discipline of system modeling and analysis. One of the chapters of the book explains how feedback delays in a system with balancing loops can cause the system to oscillate before stabilizing closer to its desired state.
 I know this might sound like gibberish if you are foreign to system modeling, but this is actually a simple and powerful idea with many real-world instances, one of which I’ll bet you’ve experienced yourself more than once.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://example.org/docs/feature-timing/</link>
+      <link>https://soukiassianb.github.io/blog-render/docs/feature-timing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/docs/feature-timing/</guid>
+      <guid>https://soukiassianb.github.io/blog-render/docs/feature-timing/</guid>
       <description>Feature Timing One of the well known pitfalls when building a product is the bias toward adding features as a way to improve the overall product experience and build engagement. Much has been written about why this approach rarely works and an opposing, more purist school of thought take pride in building products with minimalists feature sets.
 When determining if one should build a feature, the discussion often fall around the tension between some sort of static set of beliefs: the minimalist designer who wants to keep things simple *vs *the “built it and they will come” engineer who wants to add new features to please a vocal but marginal set of users (and possibly increase complexity).</description>
     </item>
     
     <item>
       <title>Heuristiques Produit</title>
-      <link>http://example.org/docs/heuristiquesproduit/</link>
+      <link>https://soukiassianb.github.io/blog-render/docs/heuristiquesproduit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/docs/heuristiquesproduit/</guid>
+      <guid>https://soukiassianb.github.io/blog-render/docs/heuristiquesproduit/</guid>
       <description>Heuristiques produit Hello,
 Après discussion avec certains d&amp;rsquo;entre vous, j&amp;rsquo;ai décidé de lancer une série d&amp;rsquo;emails pour vous partager ce que j&amp;rsquo;appelle les heuristiques produit.
 Les heuristiques, c&amp;rsquo;est des méthodes de pensée rapides et imparfaites, qui permettent cependant de donner un cadre et une compréhension commune autour d&amp;rsquo;un problème. Les heuristiques produit viennent de la psychologie, du design du produit etc.
