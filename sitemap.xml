@@ -3,123 +3,123 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://soukiassianb.github.io/blog-render/posts/creating-a-new-theme/</loc>
+    <loc>http://soukia.be/posts/creating-a-new-theme/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://soukiassianb.github.io/blog-render/posts/migrate-from-jekyll/</loc>
+    <loc>http://soukia.be/posts/migrate-from-jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://soukiassianb.github.io/blog-render/</loc>
+    <loc>http://soukia.be/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://soukiassianb.github.io/blog-render/posts/</loc>
+    <loc>http://soukia.be/posts/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://soukiassianb.github.io/blog-render/posts/goisforlovers/</loc>
+    <loc>http://soukia.be/posts/goisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://soukiassianb.github.io/blog-render/categories/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://soukiassianb.github.io/blog-render/categories/development/</loc>
+    <loc>http://soukia.be/categories/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://soukiassianb.github.io/blog-render/posts/hugoisforlovers/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soukiassianb.github.io/blog-render/tags/</loc>
+    <loc>http://soukia.be/categories/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://soukiassianb.github.io/blog-render/tags/development/</loc>
+    <loc>http://soukia.be/posts/hugoisforlovers/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://soukia.be/tags/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://soukiassianb.github.io/blog-render/tags/go/</loc>
+    <loc>http://soukia.be/tags/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://soukiassianb.github.io/blog-render/categories/golang/</loc>
+    <loc>http://soukia.be/tags/go/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://soukiassianb.github.io/blog-render/tags/golang/</loc>
+    <loc>http://soukia.be/categories/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://soukiassianb.github.io/blog-render/tags/hugo/</loc>
+    <loc>http://soukia.be/tags/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://soukiassianb.github.io/blog-render/tags/templates/</loc>
+    <loc>http://soukia.be/tags/hugo/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://soukiassianb.github.io/blog-render/tags/themes/</loc>
+    <loc>http://soukia.be/tags/templates/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://soukiassianb.github.io/blog-render/docs/convenience/</loc>
+    <loc>http://soukia.be/tags/themes/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://soukiassianb.github.io/blog-render/docs/drafts/ben-franklin/</loc>
+    <loc>http://soukia.be/docs/convenience/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://soukiassianb.github.io/blog-render/docs/faucet-design/</loc>
+    <loc>http://soukia.be/docs/drafts/ben-franklin/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://soukiassianb.github.io/blog-render/docs/feature-timing/</loc>
+    <loc>http://soukia.be/docs/faucet-design/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://soukiassianb.github.io/blog-render/docs/</loc>
+    <loc>http://soukia.be/docs/feature-timing/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://soukiassianb.github.io/blog-render/docs/heuristiquesproduit/</loc>
+    <loc>http://soukia.be/docs/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://soukia.be/docs/heuristiquesproduit/</loc>
   </url>
   
 </urlset>

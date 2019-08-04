@@ -2,60 +2,60 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docs on Ben&#39;s Thoughts</title>
-    <link>https://soukiassianb.github.io/blog-render/docs/</link>
+    <link>http://soukia.be/docs/</link>
     <description>Recent content in Docs on Ben&#39;s Thoughts</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://soukiassianb.github.io/blog-render/docs/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://soukia.be/docs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https://soukiassianb.github.io/blog-render/docs/convenience/</link>
+      <link>http://soukia.be/docs/convenience/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://soukiassianb.github.io/blog-render/docs/convenience/</guid>
+      <guid>http://soukia.be/docs/convenience/</guid>
       <description>Convenience &amp;amp; high fidelity I read a book a while back called Trade-offs. The central premise was that the way people experience products or services can be mapped on a chart called the fidelity swap which showcases Fidelity on the Y axis and Convenience on the X axis.
 In the context of this chart, fidelity refers to the *total experience of something *whereas** convenience **refers to how easy or hard is it to get what you want (It encompass availability, price, ease of use).</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://soukiassianb.github.io/blog-render/docs/drafts/ben-franklin/</link>
+      <link>http://soukia.be/docs/drafts/ben-franklin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://soukiassianb.github.io/blog-render/docs/drafts/ben-franklin/</guid>
+      <guid>http://soukia.be/docs/drafts/ben-franklin/</guid>
       <description>Ben Franklin I just got around finishing Benjamin Franklin&amp;rsquo;s biography by Walter Isaacson. I read it to understand why his character has been a source of fascination and admiration for many, and while the book was dense and at times a bit longish, by the end I definitely shared a form of admiration for the man (as I tend to do for all polymaths).
 Here is a list of things I learned about Benjamin Franklin.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://soukiassianb.github.io/blog-render/docs/faucet-design/</link>
+      <link>http://soukia.be/docs/faucet-design/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://soukiassianb.github.io/blog-render/docs/faucet-design/</guid>
+      <guid>http://soukia.be/docs/faucet-design/</guid>
       <description>The surprising link between faucet design and Machine Learning. Thinking in Systems by Donella Meadows is a great introduction to the discipline of system modeling and analysis. One of the chapters of the book explains how feedback delays in a system with balancing loops can cause the system to oscillate before stabilizing closer to its desired state.
 I know this might sound like gibberish if you are foreign to system modeling, but this is actually a simple and powerful idea with many real-world instances, one of which I’ll bet you’ve experienced yourself more than once.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://soukiassianb.github.io/blog-render/docs/feature-timing/</link>
+      <link>http://soukia.be/docs/feature-timing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://soukiassianb.github.io/blog-render/docs/feature-timing/</guid>
+      <guid>http://soukia.be/docs/feature-timing/</guid>
       <description>Feature Timing One of the well known pitfalls when building a product is the bias toward adding features as a way to improve the overall product experience and build engagement. Much has been written about why this approach rarely works and an opposing, more purist school of thought take pride in building products with minimalists feature sets.
 When determining if one should build a feature, the discussion often fall around the tension between some sort of static set of beliefs: the minimalist designer who wants to keep things simple *vs *the “built it and they will come” engineer who wants to add new features to please a vocal but marginal set of users (and possibly increase complexity).</description>
     </item>
     
     <item>
       <title>Heuristiques Produit</title>
-      <link>https://soukiassianb.github.io/blog-render/docs/heuristiquesproduit/</link>
+      <link>http://soukia.be/docs/heuristiquesproduit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://soukiassianb.github.io/blog-render/docs/heuristiquesproduit/</guid>
+      <guid>http://soukia.be/docs/heuristiquesproduit/</guid>
       <description>Heuristiques produit Hello,
 Après discussion avec certains d&amp;rsquo;entre vous, j&amp;rsquo;ai décidé de lancer une série d&amp;rsquo;emails pour vous partager ce que j&amp;rsquo;appelle les heuristiques produit.
 Les heuristiques, c&amp;rsquo;est des méthodes de pensée rapides et imparfaites, qui permettent cependant de donner un cadre et une compréhension commune autour d&amp;rsquo;un problème. Les heuristiques produit viennent de la psychologie, du design du produit etc.
