@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+
+
+
+
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+  
+    
+    Faucet Design
+  
+ | Ben&#39;s Thoughts</title>
+
+
+
+<link rel="stylesheet" href="/book.min.4709fbffef2a40329c0c6ec4a7928ee2c3781eb95b2cef8a3524ae42f0dde624.css">
+
+
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body>
+  <input type="checkbox" style="display: none" id="menu-control" />
+  <main class="flex container">
+
+    <aside class="book-menu fixed">
+      <nav>
+
+<a href="http://soukia.be/"><img src="http://soukia.be//img/ben.png" height="70" style="opacity: 0.8" alt="ben"></a>
+<br>
+
+
+
+
+<br>
+<h3>Posts ✍️</h3>
+
+    
+
+  
+  
+
+
+
+
+
+
+  
+    
+
+  <ul>
+    
+    
+    <li>
+      
+
+  <a href="/posts/creating-a-new-theme/" >
+    
+  
+    
+    Creating a New Theme
+  
+
+  </a>
+
+
+    </li>
+    
+    <li>
+      
+
+  <a href="/posts/migrate-from-jekyll/" >
+    
+  
+    
+    Migrate to Hugo from Jekyll
+  
+
+  </a>
+
+
+    </li>
+    
+    <li>
+      
+
+  <a href="/posts/goisforlovers/" >
+    
+  
+    
+    (Hu)go Template Primer
+  
+
+  </a>
+
+
+    </li>
+    
+    <li>
+      
+
+  <a href="/posts/hugoisforlovers/" >
+    
+  
+    
+    Getting Started with Hugo
+  
+
+  </a>
+
+
+    </li>
+    
+    <li>
+      
+
+  <a href="/posts/convenience/" >
+    
+  
+    
+    Convenience
+  
+
+  </a>
+
+
+    </li>
+    
+    <li>
+      
+
+  <a href="/posts/drafts/ben-franklin/" >
+    
+  
+    
+    Ben Franklin
+  
+
+  </a>
+
+
+    </li>
+    
+    <li>
+      
+
+  <a href="/posts/faucet-design/"  class="active">
+    
+  
+    
+    Faucet Design
+  
+
+  </a>
+
+
+    </li>
+    
+    <li>
+      
+
+  <a href="/posts/feature-timing/" >
+    
+  
+    
+    Feature Timing
+  
+
+  </a>
+
+
+    </li>
+    
+    <li>
+      
+
+  <a href="/posts/heuristiquesproduit/" >
+    
+  
+    
+    Heuristiques Produit
+  
+
+  </a>
+
+
+    </li>
+    
+  </ul>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+<br>
+
+
+
+
+</nav>
+
+
+
+    </aside>
+
+    <div class="book-page">
+      <header class="align-center justify-between book-header">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" alt="Menu" />
+  </label>
+  <strong>
+  
+    
+    Faucet Design
+  
+</strong>
+</header>
+
+      
+<article class="markdown">
+
+<h1 id="the-surprising-link-between-faucet-design-and-machine-learning">The surprising link between faucet design and Machine Learning.</h1>
+
+<p>Thinking in Systems by Donella Meadows is a great introduction to the discipline of system modeling and analysis. One of the chapters of the book explains how feedback delays in a system with balancing loops can cause the system to oscillate before stabilizing closer to its desired state.</p>
+
+<p>I know this might sound like gibberish if you are foreign to system modeling, but this is actually a simple and powerful idea with many real-world instances, one of which I’ll bet you’ve experienced yourself more than once.</p>
+
+<p>Picture a traditional faucet, with warm and cold taps on each side:</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/4626/1*qauTggaFQ4sC1WT1LQkOmA.png" alt="" /></p>
+
+<p>This faucet will be our central example, our <strong>system</strong>. The <strong>desired state</strong> to which we’d like to bring our faucet is lukewarm water, around 38°C (which, since you asked, is the <a href="https://dmna.ny.gov/foodservice/docs/toolbox/proper_handwashing.pdf">recommended temperature </a>for hand washing, even though studies have shown that hot water is as effective as cold to get rid of bacterias).</p>
+
+<p>That’s easy, right? We’ll just turn the taps until the water reaches our desired temperature.</p>
+
+<p>Let’s add a twist: like the faucet at your grandma’s house, every time you turn the tap, there will be a three seconds delay before you are able to feel the changing water temperature.</p>
+
+<p>As you might be guessing, adding a delay will lead you into “overshooting” or “undershooting” your tap turns: water will first get too hot then too cold before you are able to stabilize it around the desired temperature.</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/4626/1*2dxBBY1rtbfQoNrWn1hyZQ.png" alt="" /></p>
+
+<p>The oscillation of our faucet between hot and cold is, one might say, relatively inoffensive. We run the risk of a light warm water burn, but that’s not something to fuss about.</p>
+
+<p>The thing is, systems similar to our faucet, with balancing loops and feedback delays are everywhere, with much more dramatic implications.</p>
+
+<p>One example is economic policy, which because of important delays between the implementation of a policy, and measured results, plus the inherent complexity of aiming correctly, lead voters to “oscillate” on the left-right political spectrum.</p>
+
+<p>In my own professional domain, when we build products and try to reach <a href="https://pmarchive.com/guide_to_startups_part4.html">product-market fit</a>, we have to take risks and mobilize resources early, often with low visibility and important delays before we can measure any sign of success.</p>
+
+<p>The complexity of building a product that reaches product-market fit peaks when both the product and the market needs to be defined, that’s kind of like turning the faucet taps to reach a target temperature that changes as you go. It’s hard.</p>
+
+<p>Another, more dramatic feedback delay you may sometimes think about is the way we treat our body and health. Our body is an incredibly resilient system, especially in the short term, but over time, having detrimental lifestyle habits, like eating junk food — thus overshooting calorie or sugar intake consistently — might get you into an unintended feedback loop, one which might end up giving you diabetes, or a heart attack.</p>
+
+<p>But let’s go back to a less dramatic system, our faucet. And to get a better understanding of what caused the water temperature to oscillate, let’s travel to the world of Machine Learning.</p>
+
+<h2 id="going-down-the-slope">Going down the slope</h2>
+
+<p>If you think about it, another —  more abstract —  way of describing what we were trying to do with our faucet is to reduce (in data linguo, *minimize) *the difference between the current faucet temperature, and our target, 38°C.</p>
+
+<p>Since there was no way to aim precisely our tap turn beforehand, the only feedback we had was the actual water temperature, so we had to start turning and figure it out on the go.</p>
+
+<p>This is called an <em>optimization</em> problem, and in this regard, we can learn from Machine Learning, especially from an algorithm called <strong><em>Gradient Descent</em></strong>.</p>
+
+<p>Gradient Descent is one of the simplest, most popular algorithms in machine learning. What it basically does is that it tries to <em>minimize</em> a <em>cost function</em>.</p>
+
+<p>The cost function describes the distance from the true prediction. In our case, it’s the absolute difference between the actual temperature of the water and the temperature we are aiming for.</p>
+
+<p>By minimizing, it is meant that the algorithm will iterate over different parameters until it reaches the lowest possible value for the cost function. To keep our faucet example, it will keep trying different tap turns combinations until it reaches the closest value to 38°C possible.</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/4626/1*Y3Vd_aiT9WKtVMBdV3aXsw.png" alt="" /></p>
+
+<p>###</p>
+
+<p>One of the parameters of the algorithm is the ***learning rate, ***it describes the size of the step the algorithm takes, at each iteration. In our case, how much we turn the faucet taps.</p>
+
+<p>If the rate is low, the algorithm is more reliable, but it also takes a lot more time to minimize the cost function.</p>
+
+<p>If on the contrary, the rate is high, the algorithm may not find the minimum, overshooting at each iteration.</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/4626/1*gcB3iZygNH10rw6UkIRJwQ.png" alt="" /></p>
+
+<p>How can we pick the best learning rate? Knowing the pros and cons of small and big rates, one would tend towards picking a relatively small one.</p>
+
+<p>This strategy would play well with simple systems such as our faucet, but issues could arise with more complex systems with <em>local minimums</em>.</p>
+
+<p>Local minimums can be thought of as an illusion of the best solution. While there is only one way to get our faucet to run hot water, there are several economic policies that could reduce unemployment.</p>
+
+<p><img src="https://cdn-images-1.medium.com/max/4626/1*vZJINPnm7vkiaNzI4zOXww.png" alt="" /></p>
+
+<p>By picking a small learning rate, we run the risk of getting trapped into a local minimum, while a global minimum exists elsewhere, waiting to be discovered.</p>
+
+<h3 id="how-can-we-avoid-local-minimums">How can we avoid local minimums?</h3>
+
+<p>One strategy to avoid local minimums is called **learning rate decay. **What it basically does is start with a big learning rate, then decreases it as it gets closer to the cost function minimum, to avoid both getting trapped in a local minimum and overshooting as it gets closer to the global minimum.</p>
+
+<p>What’s funny is that it’s actually close to our natural behavior when we use a faucet: we first turn the taps quite a lot, then adjust with smaller and smaller movements as we get temperature feedback. Next time you turn on the faucet to wash your hands, think about it, you’re doing Gradient Descent with Learning Rate Decay!</p>
+
+<p>But let’s get back to the main subject, <strong>feedback delays</strong>.</p>
+
+<p>Machine learning algorithms don’t have the same <em>feedback delays</em> we have in the real world, computing the cost function after moving parameters is near instantaneous.</p>
+
+<p>The issue with feedback delays is that they unconsciously lead us to <strong>keep acting as we’re not seeing anything changing</strong>, in other words, delays unintentionally lead us to <em>overshoot</em> by picking* a high learning rate.*</p>
+
+<p>We keep turning the faucet, we keep eating junk, we keep shipping new features, we keep implementing new policies, and when we realize we overshot, we go full speed in the opposite direction, hoping to stabilize the system.</p>
+
+<p>But as the delays get longer, the harder it becomes to get the system back on track, with some systems even reaching a tipping point of no return.</p>
+
+<h2 id="why-do-we-get-so-blind-to-aim-correctly">Why do we get so blind to aim correctly?</h2>
+
+<p>First of all, we may not be aware of the existence or a delay, or we may forget that it’s here. For systems from which we get continuous data points — despite the delay — it’s easy to get caught up in seeing short-term causal links, while what we’re actually looking at is the product of an older feedback loop. Politicians do this all the time. They love getting the praise when economic indicators are green even though it’s actually their predecessors that have done the work.</p>
+
+<p>The second reason we get blind is that we are biased toward action. We can’t bear the idea of sitting still, waiting for the feedback to come, so we keep acting, and in the process we overshoot.</p>
+
+<p>Finally, delays push us to overshoot, but we also need to be wary of the opposite phenomenon. We often get stuck in local minimums. Things that give us good signals while a better solution is waiting to be unearthed.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>How can we avoid these traps? There are no easy</p>
+
+<h3 id="fix-your-cost-function">Fix your cost function</h3>
+
+<p>There are a few ways to prevent blindness: the first one is to make sure we have the right cost function. In other words that the feedback you are getting is the trustful product of your action. In real-world systems, such as the economy, it’s not that easy.</p>
+
+<h3 id="keep-the-delays-short">Keep the delays short</h3>
+
+<p>The second way is, to reduce as much as possible the delay between action and feedback, which can help stabilize the system.</p>
+
+<p>In many real-world systems, there are actually two delays: the time it takes to act and the time it takes the feedback to loop to come back to us. For instance, how fast we turn the faucet, then how fast the temperature changes. We often have more control over the former than the latter.</p>
+
+<p>Scientists, engineers, and startup founders have all developed work methodologies (respectively: the scientific method, agile software development, and lean startup) that try to reduce feedback delays by promoting an approach based on fast iterations rather than long development cycles.</p>
+
+<h2 id="conclusion-1">Conclusion</h2>
+
+<p>Feedback delays are all over the place and learning about their effect can be a useful tool to improve your decision making.</p>
+
+<p>While the discipline of systems theory and modeling can seem at first raw and complicated, it becomes intellectually thrilling when you first learn a new idea, then get to watch it unfold in different unrelated contexts.</p>
+
+<p>This post was initially inspired by <a href="https://www.amazon.fr/Thinking-Systems-Donella-H-Meadows/dp/1603580557/ref=sr_1_1?ie=UTF8&amp;qid=1552238193&amp;sr=8-1&amp;keywords=thinking+in+systems">Thinking in System</a>s. If you liked reading it I also highly recommend you to read <a href="https://www.amazon.fr/Algorithms-Live-Computer-Science-Decisions/dp/1627790365">Algorithms to live by</a>, or take the course <a href="https://www.coursera.org/learn/model-thinking/$">Model Thinking</a>.</p>
+</article>
+
+      
+
+      
+    </div>
+
+    
+  
+
+  <aside class="book-toc level-true fixed">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#the-surprising-link-between-faucet-design-and-machine-learning">The surprising link between faucet design and Machine Learning.</a>
+<ul>
+<li><a href="#going-down-the-slope">Going down the slope</a>
+<ul>
+<li><a href="#how-can-we-avoid-local-minimums">How can we avoid local minimums?</a></li>
+</ul></li>
+<li><a href="#why-do-we-get-so-blind-to-aim-correctly">Why do we get so blind to aim correctly?</a></li>
+<li><a href="#conclusion">Conclusion</a>
+<ul>
+<li><a href="#fix-your-cost-function">Fix your cost function</a></li>
+<li><a href="#keep-the-delays-short">Keep the delays short</a></li>
+</ul></li>
+<li><a href="#conclusion-1">Conclusion</a></li>
+</ul></li>
+</ul>
+</nav>
+  </aside>
+
+
+
+  </main>
+  
+  
+  
+</body>
+
+</html>

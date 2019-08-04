@@ -17,7 +17,7 @@
 
 
 
-<link rel="stylesheet" href="/book.min.0b64dd92dc33ea3d61ea509ce4bce59cfe3e8a9b9e664548dbb13bf49132833a.css">
+<link rel="stylesheet" href="/book.min.4709fbffef2a40329c0c6ec4a7928ee2c3781eb95b2cef8a3524ae42f0dde624.css">
 
 
 <link rel="icon" href="/favicon.png" type="image/x-icon">
@@ -38,11 +38,9 @@ https://github.com/alex-shpak/hugo-book
     <aside class="book-menu fixed">
       <nav>
 
-<h2 class="book-brand">
-  <img src="http://soukia.be//img/ben.png" height="100" alt="ben">
-  <br>
-  <a href="http://soukia.be/">Ben&#39;s Thoughts</a>
-</h2>
+<a href="http://soukia.be/"><img src="http://soukia.be//img/ben.png" height="70" style="opacity: 0.8" alt="ben"></a>
+<br>
+
 
 
 
@@ -68,7 +66,67 @@ https://github.com/alex-shpak/hugo-book
     <li>
       
 
-  <a href="/docs/convenience/" >
+  <a href="/posts/creating-a-new-theme/" >
+    
+  
+    
+    Creating a New Theme
+  
+
+  </a>
+
+
+    </li>
+    
+    <li>
+      
+
+  <a href="/posts/migrate-from-jekyll/" >
+    
+  
+    
+    Migrate to Hugo from Jekyll
+  
+
+  </a>
+
+
+    </li>
+    
+    <li>
+      
+
+  <a href="/posts/goisforlovers/" >
+    
+  
+    
+    (Hu)go Template Primer
+  
+
+  </a>
+
+
+    </li>
+    
+    <li>
+      
+
+  <a href="/posts/hugoisforlovers/" >
+    
+  
+    
+    Getting Started with Hugo
+  
+
+  </a>
+
+
+    </li>
+    
+    <li>
+      
+
+  <a href="/posts/convenience/" >
     
   
     
@@ -83,7 +141,7 @@ https://github.com/alex-shpak/hugo-book
     <li>
       
 
-  <a href="/docs/drafts/ben-franklin/" >
+  <a href="/posts/drafts/ben-franklin/" >
     
   
     
@@ -98,7 +156,7 @@ https://github.com/alex-shpak/hugo-book
     <li>
       
 
-  <a href="/docs/faucet-design/" >
+  <a href="/posts/faucet-design/" >
     
   
     
@@ -113,7 +171,7 @@ https://github.com/alex-shpak/hugo-book
     <li>
       
 
-  <a href="/docs/feature-timing/" >
+  <a href="/posts/feature-timing/" >
     
   
     
@@ -128,7 +186,7 @@ https://github.com/alex-shpak/hugo-book
     <li>
       
 
-  <a href="/docs/heuristiquesproduit/" >
+  <a href="/posts/heuristiquesproduit/" >
     
   
     
@@ -155,8 +213,8 @@ https://github.com/alex-shpak/hugo-book
 
 
 <br>
-<h3>Photography 📸</h3>
-<a href=""></a>
+
+
 
 
 </nav>
@@ -182,12 +240,10 @@ https://github.com/alex-shpak/hugo-book
   
   
   <article class="markdown">
-    <h2>
+    <h1>
       <a href="/posts/creating-a-new-theme/">Creating a New Theme</a>
-    </h2>
-    <h5>
-      <strong>September 28, 2014</strong>
-    </h5>
+    </h1>
+    <h5>September 28, 2014</h5>
     <p>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme.
 We&rsquo;ll start with creating a new site with a very basic template.
         <a href="/posts/creating-a-new-theme/">...</a>
@@ -196,12 +252,10 @@ We&rsquo;ll start with creating a new site with a very basic template.
   </article>
   
   <article class="markdown">
-    <h2>
+    <h1>
       <a href="/posts/migrate-from-jekyll/">Migrate to Hugo from Jekyll</a>
-    </h2>
-    <h5>
-      <strong>March 10, 2014</strong>
-    </h5>
+    </h1>
+    <h5>March 10, 2014</h5>
     <p>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
 ▾ &lt;root&gt;/ ▾ images/ logo.png  should become
 ▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.
@@ -211,12 +265,10 @@ We&rsquo;ll start with creating a new site with a very basic template.
   </article>
   
   <article class="markdown">
-    <h2>
+    <h1>
       <a href="/posts/goisforlovers/">(Hu)go Template Primer</a>
-    </h2>
-    <h5>
-      <strong>April 2, 2014</strong>
-    </h5>
+    </h1>
+    <h5>April 2, 2014</h5>
     <p>Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
 This document is a brief primer on using Go templates.
         <a href="/posts/goisforlovers/">...</a>
@@ -225,12 +277,10 @@ This document is a brief primer on using Go templates.
   </article>
   
   <article class="markdown">
-    <h2>
+    <h1>
       <a href="/posts/hugoisforlovers/">Getting Started with Hugo</a>
-    </h2>
-    <h5>
-      <strong>April 2, 2014</strong>
-    </h5>
+    </h1>
+    <h5>April 2, 2014</h5>
     <p>Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.
 Save it somewhere specific as we will be using it in the next step.
 More complete instructions are available at Install Hugo
@@ -238,6 +288,68 @@ Step 2. Build the Docs Hugo has its own example site which happens to also be th
 Follow the following steps:
  Clone the Hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:
         <a href="/posts/hugoisforlovers/">...</a>
+      
+    </p>
+  </article>
+  
+  <article class="markdown">
+    <h1>
+      <a href="/posts/convenience/"></a>
+    </h1>
+    <h5>January 1, 0001</h5>
+    <p>Convenience &amp; high fidelity I read a book a while back called Trade-offs. The central premise was that the way people experience products or services can be mapped on a chart called the fidelity swap which showcases Fidelity on the Y axis and Convenience on the X axis.
+In the context of this chart, fidelity refers to the *total experience of something *whereas** convenience **refers to how easy or hard is it to get what you want (It encompass availability, price, ease of use).
+        <a href="/posts/convenience/">...</a>
+      
+    </p>
+  </article>
+  
+  <article class="markdown">
+    <h1>
+      <a href="/posts/drafts/ben-franklin/"></a>
+    </h1>
+    <h5>January 1, 0001</h5>
+    <p>Ben Franklin I just got around finishing Benjamin Franklin&rsquo;s biography by Walter Isaacson. I read it to understand why his character has been a source of fascination and admiration for many, and while the book was dense and at times a bit longish, by the end I definitely shared a form of admiration for the man (as I tend to do for all polymaths).
+Here is a list of things I learned about Benjamin Franklin.
+        <a href="/posts/drafts/ben-franklin/">...</a>
+      
+    </p>
+  </article>
+  
+  <article class="markdown">
+    <h1>
+      <a href="/posts/faucet-design/">Faucet Design</a>
+    </h1>
+    <h5>January 1, 0001</h5>
+    <p>The surprising link between faucet design and Machine Learning. Thinking in Systems by Donella Meadows is a great introduction to the discipline of system modeling and analysis. One of the chapters of the book explains how feedback delays in a system with balancing loops can cause the system to oscillate before stabilizing closer to its desired state.
+I know this might sound like gibberish if you are foreign to system modeling, but this is actually a simple and powerful idea with many real-world instances, one of which I’ll bet you’ve experienced yourself more than once.
+        <a href="/posts/faucet-design/">...</a>
+      
+    </p>
+  </article>
+  
+  <article class="markdown">
+    <h1>
+      <a href="/posts/feature-timing/">Feature Timing</a>
+    </h1>
+    <h5>January 1, 0001</h5>
+    <p>Feature Timing One of the well known pitfalls when building a product is the bias toward adding features as a way to improve the overall product experience and build engagement. Much has been written about why this approach rarely works and an opposing, more purist school of thought take pride in building products with minimalists feature sets.
+When determining if one should build a feature, the discussion often fall around the tension between some sort of static set of beliefs: the minimalist designer who wants to keep things simple *vs *the “built it and they will come” engineer who wants to add new features to please a vocal but marginal set of users (and possibly increase complexity).
+        <a href="/posts/feature-timing/">...</a>
+      
+    </p>
+  </article>
+  
+  <article class="markdown">
+    <h1>
+      <a href="/posts/heuristiquesproduit/">Heuristiques Produit</a>
+    </h1>
+    <h5>January 1, 0001</h5>
+    <p>Heuristiques produit Hello,
+Après discussion avec certains d&rsquo;entre vous, j&rsquo;ai décidé de lancer une série d&rsquo;emails pour vous partager ce que j&rsquo;appelle les heuristiques produit.
+Les heuristiques, c&rsquo;est des méthodes de pensée rapides et imparfaites, qui permettent cependant de donner un cadre et une compréhension commune autour d&rsquo;un problème. Les heuristiques produit viennent de la psychologie, du design du produit etc.
+Une heuristique produit ne vous dira jamais quoi faire, en revanche elle vous donnera, pour un problème donné, des axes ou dimensions de réflexion, parfois proches les uns des autres et parfois complètement orthogonaux.
+        <a href="/posts/heuristiquesproduit/">...</a>
       
     </p>
   </article>

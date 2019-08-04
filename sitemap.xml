@@ -94,32 +94,25 @@
   </url>
   
   <url>
-    <loc>http://soukia.be/docs/convenience/</loc>
+    <loc>http://soukia.be/posts/convenience/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://soukia.be/docs/drafts/ben-franklin/</loc>
+    <loc>http://soukia.be/posts/drafts/ben-franklin/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://soukia.be/docs/faucet-design/</loc>
-    <priority>0</priority>
+    <loc>http://soukia.be/posts/faucet-design/</loc>
   </url>
   
   <url>
-    <loc>http://soukia.be/docs/feature-timing/</loc>
-    <priority>0</priority>
+    <loc>http://soukia.be/posts/feature-timing/</loc>
   </url>
   
   <url>
-    <loc>http://soukia.be/docs/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://soukia.be/docs/heuristiquesproduit/</loc>
+    <loc>http://soukia.be/posts/heuristiquesproduit/</loc>
   </url>
   
 </urlset>
