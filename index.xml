@@ -11,12 +11,12 @@
     
     
     <item>
-      <title>Faucet Design</title>
-      <link>http://soukia.be/posts/faucet-design/</link>
+      <title>Feedback Delays</title>
+      <link>http://soukia.be/posts/feedback-delays/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://soukia.be/posts/faucet-design/</guid>
-      <description>The surprising link between faucet design and Machine Learning. Thinking in Systems by Donella Meadows is a great introduction to the discipline of system modeling and analysis. One of the chapters of the book explains how feedback delays in a system with balancing loops can cause systems to oscillate before stabilizing closer to their desired state.
+      <guid>http://soukia.be/posts/feedback-delays/</guid>
+      <description>Feedback delays : the surprising link between faucet design and Machine Learning. Thinking in Systems by Donella Meadows is a great introduction to the discipline of system modeling and analysis. One of the chapters of the book explains how feedback delays in a system with balancing loops can cause systems to oscillate before stabilizing closer to their desired state.
 I know this might sound like gibberish if you are foreign to system modeling, but this is actually a simple and powerful idea with many real-world application, one of which you’ve probably experienced yourself more than once.</description>
     </item>
     
