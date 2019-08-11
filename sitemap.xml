@@ -3,10 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://soukia.be/posts/ben-franklin/</loc>
-  </url>
-  
-  <url>
     <loc>http://soukia.be/</loc>
     <priority>0</priority>
   </url>
@@ -17,15 +13,7 @@
   </url>
   
   <url>
-    <loc>http://soukia.be/posts/convenience/</loc>
-  </url>
-  
-  <url>
     <loc>http://soukia.be/posts/faucet-design/</loc>
-  </url>
-  
-  <url>
-    <loc>http://soukia.be/posts/feature-timing/</loc>
   </url>
   
   <url>
