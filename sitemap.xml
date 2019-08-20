@@ -17,6 +17,10 @@
   </url>
   
   <url>
+    <loc>http://soukia.be/posts/photography/</loc>
+  </url>
+  
+  <url>
     <loc>http://soukia.be/posts/</loc>
     <priority>0</priority>
   </url>
@@ -28,6 +32,10 @@
   
   <url>
     <loc>http://soukia.be/posts/forces-of-progress/</loc>
+  </url>
+  
+  <url>
+    <loc>http://soukia.be/posts/third-pillar/</loc>
   </url>
   
 </urlset>
