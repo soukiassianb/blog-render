@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+
+
+
+
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+  
+    
+    Complexity Traps
+  
+ | Ben&#39;s Thoughts</title>
+
+
+
+<link rel="stylesheet" href="/book.min.3a2acf521a6968e306e5f8700171b9955473d9af3c0ef8f26ea33567d87de25f.css">
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.0/jquery.fancybox.min.js"></script>
+
+
+
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body>
+  <input type="checkbox" style="display: none" id="menu-control" />
+  <main class="flex container">
+
+    <aside class="book-menu fixed">
+      <nav>
+
+<br>
+<a href="http://soukia.be/"><img src="http://soukia.be//img/ben.png" height="80" style="opacity: 0.8" alt="ben"></a>
+<br>
+
+
+
+
+<br>
+<h3>Posts ✍️</h3>
+
+    
+
+  
+  
+
+
+
+
+
+
+  
+    
+
+  <ul>
+    
+    
+    <li>
+      
+
+  <a href="/posts/sans-titre/"  class="active">
+    
+  
+    
+    Complexity Traps
+  
+
+  </a>
+
+
+    </li>
+    
+    <li>
+      
+
+  <a href="/posts/feedback-delays/" >
+    
+  
+    
+    Feedback Delays
+  
+
+  </a>
+
+
+    </li>
+    
+    <li>
+      
+
+  <a href="/posts/forces-of-progress/" >
+    
+  
+    
+    Forces of Progress
+  
+
+  </a>
+
+
+    </li>
+    
+  </ul>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+<br>
+
+
+
+<h3>More 🌐</h3>
+<ul>
+  <li><a href="/posts/photography/">Photography</a></li>
+  <li><a href="https://twitter.com/soukiassianb">Twitter</a></li>
+</ul>
+
+
+</nav>
+
+
+
+    </aside>
+
+    <div class="book-page">
+      <header class="align-center justify-between book-header">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" alt="Menu" />
+  </label>
+  <strong>
+  
+    
+    Complexity Traps
+  
+</strong>
+</header>
+
+      
+<article class="markdown">
+
+<h1 id="what-makes-us-fall-into-the-complexity-trap">What makes us fall into the complexity trap?</h1>
+
+<blockquote>
+<p>Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.
+Antoine de Saint-Exupery</p>
+</blockquote>
+
+<p>I love this quote because it describes simplicity not on the basis of what is here but on the basis of what is not. Simplicity is not about having as little as possible as a goal in and of itself, but rather of minimizing what is not essential so that greater focus can be achieved on what really is important.</p>
+
+<p>The cost of complexity, whether in product management, design or engineering, really comes down to one thing: distraction from the essence, the core.</p>
+
+<p>While building and managing products at Dreem, I’ve learned to identify a few complexity traps, by falling flat face into most of them or seeing other people do.</p>
+
+<h2 id="1-we-can-don-t-mean-we-should">1. We can don’t mean we should</h2>
+
+<p>The first way people fall in the complexity trap is by believing that capability equals opportunity. We can don’t mean we should.</p>
+
+<p>As they say, to a hammer everything looks like a nail. Starting from a capability, like a technology, and trying to find an opportunity to apply it is a path to low impact, high noise projects which spread the efforts of a team and create unnecessary complexity.</p>
+
+<p>A post on simplicity would be bland without quoting Steve Jobs so here you go :</p>
+
+<blockquote>
+<p>« You have to start with the customer experience and work backward to the technology. You can’t start with the technology and try to figure out where you’re going to sell it ».</p>
+</blockquote>
+
+<p>Working any other way will end up creating a misbalance between effort and value creation.</p>
+
+<h2 id="2-by-pleasing-everyone-we-please-no-one">2. By pleasing everyone we please no one</h2>
+
+<p>People want different things, in different contexts. In product, value creation is often a zero-sum game: by maximizing the breadth of value to satisfy those desires and these contexts, we end-up spreading it thin while increasing user-facing or engineering complexity.</p>
+
+<p>In the world of startups, there is a principle that it’s better to have a hundred customers who absolutely love you than a thousand that sort of like you.</p>
+
+<p>In product design, the trade-off is well known: by building features for non-homogeneous groups, products tend to grow in complexity, making the user experience exponentially worse to the average user.</p>
+
+<p>Engineering also has a similar tradeoff. Often, the cost of dealing with a complex but marginal corner case is well above the benefit to the average end-user. This cost is double: first the engineered system will get more complex when there was no real need, second, there is an opportunity cost related to the time that will not be spent working on something more valuable.</p>
+
+<h2 id="3-we-put-the-ball-in-the-user-s-court-to-avoid-hard-choices">3. We put the ball in the user’s court to avoid hard choices</h2>
+
+<p>We take the easy path, by giving more choices, options, features to users as a way to avoid the more difficult decision of making some design choices on their behalf. When people buy our products, they trust us to make decisions so they don’t have to.</p>
+
+<p>The greatest products are often also the simplest. We measure how good they are by the one thing they do really well, but forget to think about all that the things their creator chose not to do.</p>
+
+<p>One of the paradoxes of product management is that people will always ask for more features, but stop using the product when it does too much and become unusable.</p>
+
+<p>Building products is about making decisions. Products can — and should — be opinionated.</p>
+
+<h2 id="4-we-don-t-get-to-the-bottom-of-things">4. We don’t get to the bottom of things</h2>
+
+<p>Another way we build complex products is that we don’t get to the bottom of what users really want. Building products based on <em>what</em> people ask is nearly always about adding new features.</p>
+
+<p>Building products based on <em>why</em> people are asking things is about making the most of what is already here, repurposing the existing to fit the why. By understanding the <em>why</em>, there are often alternative ways the need can be fulfilled — that the user can’t see — than by just building what they ask.</p>
+
+<h2 id="5-we-are-vain">5. We are vain</h2>
+
+<p>We all want to do our best work, but in doing to we over-engineer, we overthink things when there is no need to do so. Reaping the rewards of creating simple products is long term and indirect — while the pride of showing off a sophisticated piece of work is immediate.</p>
+
+<p>Coders might implement layers of abstractions for a single use case which was never intended to be more than that. Product managers will develop their feature as if it were a new full-fledged product living in a vacuum, without considering the implications on the entire product experience.</p>
+
+<p>Quoting Steve Jobs without giving a word to Bill would be unfair, so :</p>
+
+<blockquote>
+<p>“I choose a lazy person to do a hard job. Because a lazy person will find an easy way to do it.”</p>
+
+<p>Bill Gates</p>
+</blockquote>
+
+<h2 id="the-complexity-snowball">The complexity snowball</h2>
+
+<p>No one wakes up in the morning wanting to build complicated things for the sake of it. As humans, we value simplicity much more than we do with complexity. Yet, the paradox is that the fundamental course of the world is for things to get more complex.</p>
+
+<p>In physics, entropy describes the gradual decline of order in the physical realm. I know the analogy might seem far stretched from building products, but not as much as you think. Entropy is a one-way, compounding dynamic and complexity is the same. They build on top of themselves. They sneakily start small and in no time snowball into overwhelming, hard to stop dynamics.</p>
+
+<p>The inverse dynamic, trying to bring order to chaos, or simplify what is already complex doesn’t have these compounding properties. It requires willful discipline, and work. Complexity is here to stay and grow if you don’t decide to take action.</p>
+</article>
+
+      
+
+      
+    </div>
+
+    
+  
+
+  <aside class="book-toc level-true fixed">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#what-makes-us-fall-into-the-complexity-trap">What makes us fall into the complexity trap?</a>
+<ul>
+<li><a href="#1-we-can-don-t-mean-we-should">1. We can don’t mean we should</a></li>
+<li><a href="#2-by-pleasing-everyone-we-please-no-one">2. By pleasing everyone we please no one</a></li>
+<li><a href="#3-we-put-the-ball-in-the-user-s-court-to-avoid-hard-choices">3. We put the ball in the user’s court to avoid hard choices</a></li>
+<li><a href="#4-we-don-t-get-to-the-bottom-of-things">4. We don’t get to the bottom of things</a></li>
+<li><a href="#5-we-are-vain">5. We are vain</a></li>
+<li><a href="#the-complexity-snowball">The complexity snowball</a></li>
+</ul></li>
+</ul>
+</nav>
+  </aside>
+
+
+
+  </main>
+  
+  
+  
+</body>
+
+</html>
