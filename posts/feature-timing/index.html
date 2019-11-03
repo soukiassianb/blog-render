@@ -18,7 +18,15 @@
 
 
 
-<link rel="stylesheet" href="/book.min.37f4d0115b0280e6764c09f83415d41336ebd3e15d61d6aa0fea7d50bf85aa1a.css">
+
+
+
+<link rel="stylesheet" href="/book.min.d0d2ccbcce28cc629aa4e4c4ca9cfc53e1af02a7be06ae96831f8fcc9428f215.css">
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.0/jquery.fancybox.min.js"></script>
+
 
 
 <link rel="icon" href="/favicon.png" type="image/x-icon">
@@ -38,111 +46,27 @@ https://github.com/alex-shpak/hugo-book
 
     <aside class="book-menu fixed">
       <nav>
-
 <br>
-<a href="http://soukia.be/"><img src="http://soukia.be//img/ben.png" height="70" style="opacity: 0.8" alt="ben"></a>
-<br>
-
-
-
-
-<br>
-<h3>Posts ✍️</h3>
-
-    
-
-  
-  
-
-
-
-
-
-
-  
-    
-
-  <ul>
-    
-    
-    <li>
-      
-
-  <a href="/posts/ben-franklin/" >
-    
-  
-    
-    Ben Franklin
-  
-
-  </a>
-
-
-    </li>
-    
-    <li>
-      
-
-  <a href="/posts/convenience/" >
-    
-  
-    
-    Convenience
-  
-
-  </a>
-
-
-    </li>
-    
-    <li>
-      
-
-  <a href="/posts/faucet-design/" >
-    
-  
-    
-    Faucet Design
-  
-
-  </a>
-
-
-    </li>
-    
-    <li>
-      
-
-  <a href="/posts/feature-timing/"  class="active">
-    
-  
-    
-    Feature Timing
-  
-
-  </a>
-
-
-    </li>
-    
-  </ul>
-
-
-  
-
-
-
-
-
-
-
-
-
-
+<a href="http://soukia.be/"><img src="http://soukia.be//img/ben.png" height="80" style="opacity: 0.8" alt="ben"></a>
 <br>
 
 
 
+<br>
+<h1 class="menu-title">Ben's</h1>
+<h1 class="menu-title ">
+  <a href="/">
+    thoughts
+  </a>
+</h1>
+<h1 class="menu-title ">
+  <a href="/posts/photography/">
+    pictures
+  </a>
+</h1>
+<h1 class="menu-title">
+  <a href="https://twitter.com/soukiassianb">tweets</a>
+</h1>
 
 </nav>
 
@@ -155,12 +79,6 @@ https://github.com/alex-shpak/hugo-book
   <label for="menu-control">
     <img src="/svg/menu.svg" alt="Menu" />
   </label>
-  <strong>
-  
-    
-    Feature Timing
-  
-</strong>
 </header>
 
       
@@ -168,49 +86,46 @@ https://github.com/alex-shpak/hugo-book
 
 <h1 id="feature-timing">Feature Timing</h1>
 
-<p>One of the well known pitfalls when building a product is the bias toward adding features as a way to improve the overall product experience and build engagement. Much has been written about why this approach rarely works and an opposing, more purist school of thought take pride in building products with minimalists feature sets.</p>
+<p>One of the well known pitfalls when building a product is the bias toward adding features as a way to improve the overall product experience and build engagement. <a href="https://andrewchen.co/the-next-feature-fallacy-the-fallacy-that-the-next-new-feature-will-suddenly-make-people-use-your-product/">Much has been written about why this approach rarely works</a> and an opposing, more purist school of thought take pride in building products with minimalists feature sets.</p>
 
-<p>When determining if one should build a feature, the discussion often fall around the tension between some sort of static set of beliefs: the minimalist designer who wants to keep things simple *vs *the “built it and they will come” engineer who wants to add new features to please a vocal but marginal set of users (and possibly increase complexity).</p>
+<p>When determining if one should build a feature, the discussion often fall around the tension between some sort of static set of beliefs: the minimalist designer who wants to keep things simple vs the “built it and they will come” engineer who wants to add new features to please a vocal but marginal set of users (and possibly increase complexity).</p>
 
-<p>This tension often overshadows another variable in the equation that is based in a more objective reality: <strong>The timing of the feature within a product’s lifecycle.</strong></p>
+<p>This tension often overshadows another variable in the equation that is based in a more objective reality: <strong>The timing of the feature within a product’s lifecycle</strong>.</p>
 
-<h3 id="primary-features-determine-your-product">Primary features <em>determine your product</em></h3>
+<h2 id="primary-features-determine-your-product">Primary features determine your product</h2>
 
-<p>In the early days of a product, the features should provide and support the <strong>core interaction</strong> of the product: If you’re building a photo-sharing app, the features you build should allow the act of sharing a picture, the act of consuming this picture or enhance the “<strong>value unit</strong>”, the picture shared.</p>
+<p>In the early days of a product, the features should provide and support the core value of the product: If you’re building a photo-sharing app, the features you build should allow the act of sharing a picture, the act of consuming this picture or enhance the “value unit”, the picture shared.
+Instagram is a good example, the primary features of Instagram are: the picture sharing tool, the feed, and the filters. Those features were implemented day one for good reasons:
+- The “sharing picture” actions support the core interaction of a “producer” of content (sharing a picture, easy).
+- The feed support the core interaction of a “consumer” of content (discovering &amp; consuming pictures).
+- The filters enhance the core value units, the pictures shared (which creates value for both parties, consumers &amp; content producers).</p>
 
-<p>Instagram is a good example, the primary features of Instagram are: the picture sharing tool, the feed, and the filters. Those features were implemented day one for good reasons:</p>
-
-<ul>
-<li><p>The “sharing picture” actions support the core interaction of a “producer” of content (sharing a picture, easy).</p></li>
-
-<li><p>The feed support the core interaction of a “consumer” of content (discovering &amp; consuming pictures).</p></li>
-
-<li><p>The filters enhance the core value units, the pictures shared (which creates value for both parties, consumer &amp; producers).</p></li>
-</ul>
-
-<p>Primary features determine the nature of a product. The question then is not “should we build this feature for our product” but rather “what <em>is</em> our product ?”.</p>
+<p>Primary features determine the nature of a product. The question then is not “should we build this feature for our product” but rather “what is our product ?”.</p>
 
 <p>The tricky features are the ones which comes later on, which we’ll call “secondary”. They are tricky because they are the ones for which timing matters most.</p>
 
-<h3 id="secondary-features-come-in-different-types">Secondary features (come in different types)</h3>
+<h2 id="secondary-features-come-in-different-types">Secondary features (come in different types)</h2>
 
 <ol>
-<li><strong>They create value on top of a core value unit</strong></li>
+<li>They create value on top of a core value unit</li>
 </ol>
 
-<p>Medium is a place to write on the internet. The core value units of Medium are the stories. One example of a secondary feature which build value on top of the stories are <a href="https://medium.com/the-story/collections-curating-a-more-browsable-medium-562f7ff9a617#.uvtfzqgdh">Collections</a>, which have recently been introduced.</p>
+<p>Medium is a place to write on the internet. The core value units of Medium are the stories. One example of a secondary feature which build value on top of the stories are Collections, which have recently been introduced.</p>
 
-<p>The ability to browse Medium by theme is valuable for users, but can only exist if there are enough good stories that can be classified. That’s why it did not make sense to build Collections day one.</p>
+<p>The ability to browse Medium by theme is valuable for users, but can only exist if there are enough good stories that can be classified. That’s why it did not
+make sense to build Collections day one.</p>
 
 <p>Features that build value on top of core value units are dependent on the number and quality of those. That’s why those features should generally not be built at launch but later on when the quantity and quality of the value units start to grow.</p>
 
-<p><strong>2. They support the core Interaction</strong></p>
+<ol>
+<li>They support the core Interaction</li>
+</ol>
 
 <p>Another type of secondary features are the ones that support or encourage the core interaction.</p>
 
 <p>Let’s take our Instagram example again, liking and commenting pictures are secondary features which add a social layer on top of the core interaction and create a feedback loop that reinforce the users’ motivation to post more pictures, in order to get likes and comments.</p>
 
-<p>Those features can drive engagement but are tricky because they can become so intrinsically linked to the core interaction that they may fool you into thinking that your core interaction is valuable enough. Once there it’s hard to decipher what really drives the usage, as a consequence your may add more and more of those kind of features and make your product more complex.</p>
+<p>Those features can drive engagement but are tricky because they can become so intrinsically linked to the core interaction that they may fool you into thinking that your core interaction is valuable enough. Once there it’s hard to decipher what really drives the usage, as a consequence your may add more of this kind of features and make your product more complex.</p>
 
 <p>How many people use Instagram for the love of photography ? If Instagram were to drop the likes and comments features, what percentage of users would stop using the app ? Hard to say.</p>
 
@@ -218,21 +133,19 @@ https://github.com/alex-shpak/hugo-book
 
 <p>If you are trying to determine whether the core interaction of your product creates enough value for customers, you’d probably better off waiting a bit before adding too much of those.</p>
 
-<h3 id="peripheral-features">Peripheral features</h3>
+<h2 id="peripheral-features">Peripheral features</h2>
 
-<p>Those are the non-essential. They often are features that support indirectly the core interaction, or directly the secondary features.</p>
-
-<p>They are non-essential from a product perspective, but sometimes be strategically significant for the parent company.</p>
+<p>Those are the non-essential. They often are features that support indirectly the core interaction, or directly the secondary features.
+They are non-essential from a user perspective, but sometimes be strategically significant for the company.</p>
 
 <p>To keep our Instagram example: Instagram Direct, the app’s version of a private chat was probably launched to avoid users having to go over another app for private messaging. It does support and expand Instagram’s social layer, but it is not an essential part of the product.</p>
 
 <p>Peripheral features can be side-bets, strategic moves or non-essential but often appreciated luxuries likes customization options.</p>
 
-<p>When talking about new features, one should try to determine where it falls on the primary — secondary — peripheral spectrum and prioritize accordingly.</p>
+<p>When talking about new features, one should try to determine where it falls on the primary — secondary — peripheral spectrum and prioritize accordingly.
+Features are not fixed on the spectrum, secondary features may become primary or primary features secondary, users are the only judge. There is a solid argument to make about Instagram’s filter not being as much core to the user experience than the social layer is today.</p>
 
-<p>Features are not fixed on the spectrum, secondary features may become primary or primary features secondary, users are the only judge. There is a solid argument to make about Instagram’s filter not being as much core to the user experience than the social layer is today.</p>
-
-<p>Having a clear vision for a product is great, but feature timing is what really matters. Building too much too fast is rarely a good strategy. Having a more focused and iterative approach helps you learn and make steadier steps.</p>
+<p><strong>Having a clear vision for a product is great, but feature timing is what really matters. Building too much too fast is rarely a good strategy. Having a more focused and iterative approach helps you learn and make steadier steps.</strong></p>
 </article>
 
       
@@ -248,12 +161,9 @@ https://github.com/alex-shpak/hugo-book
 <ul>
 <li><a href="#feature-timing">Feature Timing</a>
 <ul>
-<li>
-<ul>
-<li><a href="#primary-features-determine-your-product">Primary features <em>determine your product</em></a></li>
+<li><a href="#primary-features-determine-your-product">Primary features determine your product</a></li>
 <li><a href="#secondary-features-come-in-different-types">Secondary features (come in different types)</a></li>
 <li><a href="#peripheral-features">Peripheral features</a></li>
-</ul></li>
 </ul></li>
 </ul>
 </nav>
@@ -265,6 +175,17 @@ https://github.com/alex-shpak/hugo-book
   
   
   
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-151421317-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
 </body>
 
 </html>
