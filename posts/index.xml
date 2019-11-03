@@ -6,14 +6,15 @@
     <description>Recent content in Posts on Ben&#39;s Thoughts</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Thu, 03 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://soukia.be/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>What makes us fall into the complexity trap?</title>
+      <title>Complexity traps</title>
       <link>http://soukia.be/posts/complexity-traps/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 03 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>http://soukia.be/posts/complexity-traps/</guid>
       <description>What makes us fall into the complexity trap?  Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away. Antoine de Saint-Exupery
@@ -21,29 +22,9 @@
     </item>
     
     <item>
-      <title>Convenience &amp; high fidelity (2016)</title>
-      <link>http://soukia.be/posts/convenience-fidelity/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://soukia.be/posts/convenience-fidelity/</guid>
-      <description>Convenience &amp;amp; high fidelity (2016) I read a book a while back called Trade-offs. The central premise was that the way people experience products or services can be mapped on a chart called the fidelity swap which showcases Fidelity on the Y axis and Convenience on the X axis.
-In the context of this chart, fidelity refers to the total experience of something whereas convenience refers to how easy or hard is it to get what you want (It encompass availability, price, ease of use).</description>
-    </item>
-    
-    <item>
-      <title>Feature Timing</title>
-      <link>http://soukia.be/posts/feature-timing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://soukia.be/posts/feature-timing/</guid>
-      <description>Feature Timing One of the well known pitfalls when building a product is the bias toward adding features as a way to improve the overall product experience and build engagement. Much has been written about why this approach rarely works and an opposing, more purist school of thought take pride in building products with minimalists feature sets.
-When determining if one should build a feature, the discussion often fall around the tension between some sort of static set of beliefs: the minimalist designer who wants to keep things simple vs the “built it and they will come” engineer who wants to add new features to please a vocal but marginal set of users (and possibly increase complexity).</description>
-    </item>
-    
-    <item>
-      <title>Feedback delays, the surprising link between faucet design and Machine Learning</title>
+      <title>Feedback delays</title>
       <link>http://soukia.be/posts/feedback-delays/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 03 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>http://soukia.be/posts/feedback-delays/</guid>
       <description>Feedback delays : the surprising link between faucet design and Machine Learning. Thinking in Systems by Donella Meadows is a great introduction to the discipline of system modeling and analysis. One of the chapters of the book explains how feedback delays in a system with balancing loops can cause systems to oscillate before stabilizing closer to their desired state.
@@ -53,7 +34,7 @@ I know this might sound like gibberish if you are foreign to system modeling, bu
     <item>
       <title>The Forces of Progress</title>
       <link>http://soukia.be/posts/forces-of-progress/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 03 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>http://soukia.be/posts/forces-of-progress/</guid>
       <description>The Forces of Progress I&amp;rsquo;ve been reading about the jobs to be done methodology lately. It’s a useful framework to get to the roots of customer needs.
@@ -61,9 +42,29 @@ The theory makes the points that to innovate, companies must take a step back fr
     </item>
     
     <item>
-      <title>The Perception of Design (2016)</title>
+      <title>Feature Timing</title>
+      <link>http://soukia.be/posts/feature-timing/</link>
+      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://soukia.be/posts/feature-timing/</guid>
+      <description>Feature Timing One of the well known pitfalls when building a product is the bias toward adding features as a way to improve the overall product experience and build engagement. Much has been written about why this approach rarely works and an opposing, more purist school of thought take pride in building products with minimalists feature sets.
+When determining if one should build a feature, the discussion often fall around the tension between some sort of static set of beliefs: the minimalist designer who wants to keep things simple vs the “built it and they will come” engineer who wants to add new features to please a vocal but marginal set of users (and possibly increase complexity).</description>
+    </item>
+    
+    <item>
+      <title>Convenience &amp; high fidelity</title>
+      <link>http://soukia.be/posts/convenience-fidelity/</link>
+      <pubDate>Mon, 03 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://soukia.be/posts/convenience-fidelity/</guid>
+      <description>Convenience &amp;amp; high fidelity I read a book a while back called Trade-offs. The central premise was that the way people experience products or services can be mapped on a chart called the fidelity swap which showcases Fidelity on the Y axis and Convenience on the X axis.
+In the context of this chart, fidelity refers to the total experience of something whereas convenience refers to how easy or hard is it to get what you want (It encompass availability, price, ease of use).</description>
+    </item>
+    
+    <item>
+      <title>The Perception of Design</title>
       <link>http://soukia.be/posts/perception-of-design/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 03 Oct 2016 00:00:00 +0000</pubDate>
       
       <guid>http://soukia.be/posts/perception-of-design/</guid>
       <description>The Perception of Design (2016) When I started designing website mockups for my first company, Showmade, I had no significant design experience. Looking back on those and the early versions of the website, I realize they really sucked.
@@ -76,13 +77,7 @@ But back when I made those, I thought they were good. Maybe this was just anothe
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://soukia.be/posts/photography/</guid>
-      <description>Photography San Sebastian {{&amp;lt;album &amp;ldquo;SanSebastian&amp;rdquo;&amp;gt;}}
-Norway {{&amp;lt;album &amp;ldquo;Norway&amp;rdquo;&amp;gt;}}
-Paris {{&amp;lt;album &amp;ldquo;Paris&amp;rdquo;&amp;gt;}}
-Lisbonne {{&amp;lt;album &amp;ldquo;Lisbonne&amp;rdquo;&amp;gt;}}
-Iceland {{&amp;lt;album &amp;ldquo;Iceland&amp;rdquo;&amp;gt;}}
-Nepal {{&amp;lt;album &amp;ldquo;Nepal&amp;rdquo;&amp;gt;}}
-India {{&amp;lt;album &amp;ldquo;India&amp;rdquo;&amp;gt;}}</description>
+      <description> Photography San Sebastian Norway Paris Lisbonne Iceland Nepal India </description>
     </item>
     
     <item>

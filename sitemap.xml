@@ -4,7 +4,44 @@
   
   <url>
     <loc>http://soukia.be/</loc>
+    <lastmod>2019-10-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://soukia.be/posts/complexity-traps/</loc>
+    <lastmod>2019-10-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://soukia.be/posts/feedback-delays/</loc>
+    <lastmod>2019-10-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://soukia.be/posts/</loc>
+    <lastmod>2019-10-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://soukia.be/posts/forces-of-progress/</loc>
+    <lastmod>2019-07-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://soukia.be/posts/feature-timing/</loc>
+    <lastmod>2017-10-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://soukia.be/posts/convenience-fidelity/</loc>
+    <lastmod>2016-10-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://soukia.be/posts/perception-of-design/</loc>
+    <lastmod>2016-10-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -13,36 +50,7 @@
   </url>
   
   <url>
-    <loc>http://soukia.be/posts/complexity-traps/</loc>
-  </url>
-  
-  <url>
-    <loc>http://soukia.be/posts/convenience-fidelity/</loc>
-  </url>
-  
-  <url>
-    <loc>http://soukia.be/posts/feature-timing/</loc>
-  </url>
-  
-  <url>
-    <loc>http://soukia.be/posts/feedback-delays/</loc>
-  </url>
-  
-  <url>
-    <loc>http://soukia.be/posts/forces-of-progress/</loc>
-  </url>
-  
-  <url>
-    <loc>http://soukia.be/posts/perception-of-design/</loc>
-  </url>
-  
-  <url>
     <loc>http://soukia.be/posts/photography/</loc>
-  </url>
-  
-  <url>
-    <loc>http://soukia.be/posts/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
