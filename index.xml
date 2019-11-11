@@ -6,10 +6,19 @@
     <description>Recent content on Ben&#39;s Thoughts</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 11 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://soukia.be/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Communication Inefficiencies</title>
+      <link>http://soukia.be/posts/communication-inefficiencies/</link>
+      <pubDate>Mon, 11 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://soukia.be/posts/communication-inefficiencies/</guid>
+      <description>Communication inefficiencies : Is there room for yet another communication tool ? Most organizations, once they grow above a certain size, struggle to maintain good communication flows among different teams. Yet, except if you’re Apple or Palantir, there is a good chance that transparency and a relatively free and efficient information distribution among co-workers can help create a more aligned and productive workplace, and as such is highly valuable to business outcomes.</description>
+    </item>
     
     <item>
       <title>Complexity traps</title>
