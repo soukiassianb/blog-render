@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Ben&#39;s Thoughts</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Dec 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://soukia.be/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Product Risk, Market Risk</title>
+      <link>http://soukia.be/posts/product-risk-market-risk/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://soukia.be/posts/product-risk-market-risk/</guid>
+      <description>Product Risk, Market Risk One of the big and unavoidable question when building a new product is knowing when to launch. Should you get an MVP out as fast as possible, get feedback and iteratively adjust your product features and strategy or should you wait for a near-perfect V1 that delights its first customers?
+The dominant school of thought of the last years has been the lean startup movement, which advocates clearly and equivocally for the former.</description>
+    </item>
     
     <item>
       <title>Communication Inefficiencies</title>

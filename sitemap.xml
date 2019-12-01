@@ -4,19 +4,24 @@
   
   <url>
     <loc>http://soukia.be/</loc>
-    <lastmod>2019-11-11T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://soukia.be/posts/</loc>
+    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://soukia.be/posts/product-risk-market-risk/</loc>
+    <lastmod>2019-12-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://soukia.be/posts/communication-inefficiencies/</loc>
     <lastmod>2019-11-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://soukia.be/posts/</loc>
-    <lastmod>2019-11-11T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
